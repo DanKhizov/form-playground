@@ -1,0 +1,12 @@
+$breakpoint-tablet: 768px;
+
+.plate {
+  background: #25272d;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 50%;
+
+  @media (max-width: $breakpoint-tablet) {
+    width: 100%;
+  }
+}

@@ -1,0 +1,24 @@
+.button-contaner {
+  background: #bdbdbd;
+  display: inline-block;
+
+  .button {
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    background: #e2e3e7;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      clip-path: polygon(
+        25% 0,
+        100% 0,
+        100% 75%,
+        75% 100%,
+        0 100%,
+        0 100%,
+        0 25%
+      );
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.signed-up {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title {
+    text-align: center;
+  }
+
+  .fields {
+    width: 80%;
+    margin: 2rem 0;
+
+    .field {
+      margin: 1rem;
+      display: flex;
+      justify-content: space-between;
+
+      .list-items {
+        margin: 0;
+        list-style: none;
+      }
+    }
+  }
+}
